@@ -20,7 +20,7 @@ export class AccessToken extends AccessTokenCommon {
    */
   async oauth({ scopes = null, refreshable = true }) {
     if (!scopes) {
-      scopes = [Scope.READ_USERS, Scope.READ_PINS, Scope.READ_BOARDS];
+      scopes = [Scope.READ_USERS, Scope.READ_PINS, Scope.WRITE_PINS, Scope.READ_BOARDS, Scope.WRITE_BOARDS];
       console.log('v5 requires scopes for OAuth. setting to default: READ_USERS,READ_PINS,READ_BOARDS');
     }
 
