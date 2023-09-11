@@ -1,3 +1,6 @@
+--Vincent-- 
+To get new refresh token in clear text ./scripts/get_access_token.js -ct
+
 # pinterest/api-quickstart
 
 Code that makes it easy to get started with the Pinterest API.
